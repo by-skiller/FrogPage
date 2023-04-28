@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body {
+    background-image: linear-gradient(to right, rgb(28, 70, 28),rgb(15, 90, 15),rgb(14, 88, 14),rgb(3, 82, 3));
+    color: white;
+    font-family: 'poppins';
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1{
+    font-weight: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+#menu > a {
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+    transition-duration: 0.3s;
+}
+
+#menu > a:hover {
+    color: green;
+}
+
+#loginbt {
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#loginbt:hover {
+    background-color: rgb(17, 54, 17);
+    color: white;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+}
+
+span{
+    color: green;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+img {
+    width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 60px;
+    width: 50%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
